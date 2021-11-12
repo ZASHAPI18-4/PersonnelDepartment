@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NavigationProcessing">ОбработкаПерехода</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Сотрудник" id="1">
+			<DataPath>Сотрудник</DataPath>
+			<ContextMenu name="СотрудникКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Button name="ПоискСотрудника" id="16">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПоискСотрудника</CommandName>
+			<ExtendedTooltip name="ПоискСотрудникаРасширеннаяПодсказка" id="17"/>
+		</Button>
+		<InputField name="Должность" id="4">
+			<DataPath>Должность</DataPath>
+			<ContextMenu name="ДолжностьКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДолжностьРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Button name="ПоискДолжности" id="12">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПоискДолжности</CommandName>
+			<ExtendedTooltip name="ПоискДолжностиРасширеннаяПодсказка" id="13"/>
+		</Button>
+		<InputField name="Отдел" id="7">
+			<DataPath>Отдел</DataPath>
+			<ContextMenu name="ОтделКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОтделРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Button name="ПоискОтдела" id="14">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПоискОтдела</CommandName>
+			<ExtendedTooltip name="ПоискОтделаРасширеннаяПодсказка" id="15"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Поиск</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Сотрудник" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Должность" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Отдел" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отдел</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Отделы</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПоискДолжности" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск должности</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск должности</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоискДолжности</Action>
+		</Command>
+		<Command name="ПоискОтдела" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск отдела</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск отдела</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоискОтдела</Action>
+		</Command>
+		<Command name="ПоискСотрудника" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск сотрудника</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск сотрудника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоискСотрудника</Action>
+		</Command>
+	</Commands>
+</Form>
