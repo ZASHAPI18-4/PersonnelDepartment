@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<SubsystemsVisibility>
+		<Subsystem name="Subsystem.ОтделКадров">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Сотрудник">true</xr:Value>
+				<xr:Value name="Role.ОтделКадров">true</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.Гость">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Настройки">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.ОтделКадров">true</xr:Value>
+				<xr:Value name="Role.Сотрудник">true</xr:Value>
+				<xr:Value name="Role.Гость">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Информация">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Гость">true</xr:Value>
+				<xr:Value name="Role.Сотрудник">true</xr:Value>
+				<xr:Value name="Role.ОтделКадров">true</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.ОтделКадров</Subsystem>
+		<Subsystem>Subsystem.Настройки</Subsystem>
+		<Subsystem>Subsystem.Информация</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>
