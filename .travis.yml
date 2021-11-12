@@ -1,2 +1,3 @@
 language: 1C
 os: windows
+after_success: npm run coverage
