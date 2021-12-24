@@ -10,7 +10,7 @@
 		<Metadata name="Catalog.Отделы" id="b237b99e-63c2-4de6-8765-1925a4999442" configVersion="e2d474f3684eff469f97ecc3bdb5980800000000"/>
 		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента" id="8c35ac8f-345b-49ce-8509-ae2e072625c5" configVersion="1aaf115e7a53f04b8f6508bec284b10f00000000"/>
 		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента.Form" id="8c35ac8f-345b-49ce-8509-ae2e072625c5.0" configVersion="567a5a914ac60e4f810f4c1cf2f7e54a00000000"/>
-		<Metadata name="Catalog.Сотрудники" id="6bbc763f-65c4-4e8e-9030-fa1b245ae3a9" configVersion="ec0492576cb5ec448677efbc1560d4da00000000">
+		<Metadata name="Catalog.Сотрудники" id="6bbc763f-65c4-4e8e-9030-fa1b245ae3a9" configVersion="3082e33ab065b6489281c60a835916b000000000">
 			<Metadata name="Catalog.Сотрудники.TabularSection.РасписаниеДня.Attribute.Дата" id="029e5fed-0cdf-419b-ab83-ba1758ec9cfc"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.УровеньОбразования" id="02eb7948-2636-4fa7-90e1-6354c5cd2797"/>
 			<Metadata name="Catalog.Сотрудники.TabularSection.РасписаниеДня.Attribute.ОписаниеМероприятия" id="08fb1c75-1442-4ba5-ade8-2ad82786c820"/>
@@ -24,11 +24,12 @@
 			<Metadata name="Catalog.Сотрудники.TabularSection.РасписаниеДня.Attribute.Мероприятие" id="c3773c95-9352-4981-90ad-830b7d4e5e75"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Отчество" id="de8dd739-b098-4f8e-b0d2-82af98d885b7"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Фамилия" id="f0e3f96f-2011-43c5-881b-e7d5cefc2550"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.РасчетныйСчет" id="fb1cb020-01d4-4946-8650-b58ee5c87e6a"/>
 		</Metadata>
 		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка" id="85be11f6-67fb-4a1b-8852-7b5e5960e624" configVersion="8418b756f718f84f824fade47be9f6a900000000"/>
 		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Form" id="85be11f6-67fb-4a1b-8852-7b5e5960e624.0" configVersion="9454c1357464144e88a1f8836a72b3ed00000000"/>
-		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="26e05b58-88a7-4007-a709-3e1ad63ffe00" configVersion="7e3d03e8a28208448be8ea7eb7bbd17600000000"/>
-		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="26e05b58-88a7-4007-a709-3e1ad63ffe00.0" configVersion="de7656451e819046b93d60b73e111a5200000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="26e05b58-88a7-4007-a709-3e1ad63ffe00" configVersion="e2d66233b3f77e41898210a5219a42d900000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="26e05b58-88a7-4007-a709-3e1ad63ffe00.0" configVersion="88be8dd10ca22f4e987160b5a8e536bb00000000"/>
 		<Metadata name="CommonForm.ГрафикМероприятий" id="2dbcccec-478e-4bd8-8732-a7352a963e66" configVersion="6701568c5e535340b967e29178bc0e2700000000"/>
 		<Metadata name="CommonForm.ГрафикМероприятий.Form" id="2dbcccec-478e-4bd8-8732-a7352a963e66.0" configVersion="3b19dce87253364c86f35549476e22f500000000"/>
 		<Metadata name="CommonForm.ТекущийСтиль" id="dcf176f4-3f1d-47cd-8ece-014ec65c5de3" configVersion="7c5cd04ab14faf41987310d7395a231c00000000"/>
