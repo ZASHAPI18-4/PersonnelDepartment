@@ -80,6 +80,11 @@
 			<ContextMenu name="УровеньОбразованияКонтекстноеМеню" id="29"/>
 			<ExtendedTooltip name="УровеньОбразованияРасширеннаяПодсказка" id="30"/>
 		</InputField>
+		<InputField name="РасчетныйСчет" id="62">
+			<DataPath>Объект.РасчетныйСчет</DataPath>
+			<ContextMenu name="РасчетныйСчетКонтекстноеМеню" id="63"/>
+			<ExtendedTooltip name="РасчетныйСчетРасширеннаяПодсказка" id="64"/>
+		</InputField>
 		<Table name="РасписаниеДня" id="34">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
