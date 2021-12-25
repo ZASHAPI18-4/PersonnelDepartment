@@ -43,12 +43,12 @@
 		<Metadata name="CommonPicture.ОбщаяКартинка2.Picture" id="a51639ef-52fb-41ea-a2fe-e74f802c7e84.0" configVersion="41a26d5ef4abed4a961546c4518fb51900000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинка3" id="9b4f8fcd-8a9f-46a7-bbc4-718ae4865f07" configVersion="2711da5243fafb4c9164179ef640cfc200000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинка3.Picture" id="9b4f8fcd-8a9f-46a7-bbc4-718ae4865f07.0" configVersion="434526e9ae9f3c45bf6be8d14fc1c55100000000"/>
-		<Metadata name="Configuration.Конфигурация" id="6ee6895b-a624-462d-b633-adfc7aa07496" configVersion="1e7c3f51a75bfc4c9ffba1019be0de9800000000"/>
+		<Metadata name="Configuration.Конфигурация" id="6ee6895b-a624-462d-b633-adfc7aa07496" configVersion="cb84c6a9ca12bd4eadc17f8035dd289b00000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="2b69b157-5228-486e-8beb-5da1df0297ff.b" configVersion="cef8a7d3800f59459bc61b0523b5393900000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="2b69b157-5228-486e-8beb-5da1df0297ff.a" configVersion="b803b9a2245c1c47ace746d97212c37700000000"/>
 		<Metadata name="Configuration.Конфигурация.ExternalConnectionModule" id="2b69b157-5228-486e-8beb-5da1df0297ff.5" configVersion="0b76395c63d6b94bb917d6bd3bfba7b000000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="2b69b157-5228-486e-8beb-5da1df0297ff.9" configVersion="b445475ad8435f4490ef6ca84e2e4b7100000000"/>
-		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="2b69b157-5228-486e-8beb-5da1df0297ff.6" configVersion="c8a308a6e382ad4eb8e13eadcb76877e00000000"/>
+		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="2b69b157-5228-486e-8beb-5da1df0297ff.6" configVersion="150ef6491f3b83408bc9f32fc773728500000000"/>
 		<Metadata name="Configuration.Конфигурация.SessionModule" id="2b69b157-5228-486e-8beb-5da1df0297ff.7" configVersion="1d2d9b59b67a3747abdbbf1e7b48c4ec00000000"/>
 		<Metadata name="Configuration.Конфигурация.StandaloneConfigurationContent" id="2b69b157-5228-486e-8beb-5da1df0297ff.f" configVersion="5e4c01359df1d641ab17f4071c44839800000000"/>
 		<Metadata name="Constant.ТекущийСтиль" id="0a188bd1-819b-44d8-9b01-a9a820fe41d1" configVersion="71b196149047e345b17b561e389584e500000000"/>
